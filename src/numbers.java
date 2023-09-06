@@ -16,8 +16,14 @@ public class numbers {
         System.out.println (num - number);
         System.out.print ("Multipy= ");
         System.out.println (num * number);
+        System.out.print ("Divide= ");
+float Divresult = (float) num / (float) number;
+        System.out.print(Divresult);
+        System.out.print ("Modulo= ");
+        System.out.println (num % number);
+        System.out.print ("Exponent= ");
+        System.out.println (num % number);
 
-        System.out.format("divide = ", (num / number));
 
     }
 }
