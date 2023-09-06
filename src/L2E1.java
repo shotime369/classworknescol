@@ -11,7 +11,7 @@ public class L2E1{
 
         System.out.println("The first time " + name + " tried " + hobby + " she knew it would be her favourite thing ever");
         System.out.println("she thought about " + hobby + " all the time, even when she should have been working");
-        System.out.println("keep going " + name + " you'll get to do " + hobby + " again soon");
+        System.out.println("keep going " + name + " you'll get to do " + hobby + " again soon!");
 
     }
 }
