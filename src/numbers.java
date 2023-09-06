@@ -21,8 +21,8 @@ float Divresult = (float) num / (float) number;
         System.out.print(Divresult);
         System.out.print ("Modulo= ");
         System.out.println (num % number);
-        System.out.print ("Exponent= ");
-        System.out.println (num % number);
+       // System.out.print ("Exponent= ");
+      //  System.out.println (num % number);
 
 
     }
