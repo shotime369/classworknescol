@@ -11,14 +11,16 @@ public class numbers {
         System.out.print("second number ");
         int number = input.nextInt();
 //print out sums
-        System.out.println ("Sum = " + (num + number));
-        System.out.println ("Subtract = "+ (num - number));
-        System.out.println ("Multipy= " + (num * number));
+
+        System.out.println (num+ "+" +number + "=" +(num + number));
+        System.out.println (num+ "-" +number + "=" + (num - number));
+        System.out.println (num+ "*" +number + "=" +(num * number));
         //float the decimal result from division
         float Divresult = (float) num / (float) number;
-        System.out.println ("Divide= "+ (Divresult));
-        System.out.println ("Modulo= "+ (num % number));
-        System.out.println ("Exponent= " + (Math.pow(num,number)));
+        System.out.print (num+ "/" +number + "=");
+        System.out.println (Divresult);
+        System.out.println (num+ "%" +number + "=" +(num % number));
+        System.out.println (num+ "^" +number + "=" +(Math.pow(num,number)));
 
 
     }
