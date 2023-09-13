@@ -4,25 +4,23 @@ public class numbers {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+        //ask for integer called num
         System.out.print("first number ");
         int num = input.nextInt();
-
+        //ask for input integer called number
         System.out.print("second number ");
         int number = input.nextInt();
+//print out sums
 
-        System.out.print ("Sum = ");
-        System.out.println (num + number);
-        System.out.print ("Subtract = ");
-        System.out.println (num - number);
-        System.out.print ("Multipy= ");
-        System.out.println (num * number);
-        System.out.print ("Divide= ");
-float Divresult = (float) num / (float) number;
-        System.out.print(Divresult);
-        System.out.print ("Modulo= ");
-        System.out.println (num % number);
-       // System.out.print ("Exponent= ");
-      //  System.out.println (num % number);
+        System.out.println (num+ "+" +number + "=" +(num + number));
+        System.out.println (num+ "-" +number + "=" + (num - number));
+        System.out.println (num+ "*" +number + "=" +(num * number));
+        //float the decimal result from division
+        float Divresult = (float) num / (float) number;
+        System.out.print (num+ "/" +number + "=");
+        System.out.println (Divresult);
+        System.out.println (num+ "%" +number + "=" +(num % number));
+        System.out.println (num+ "^" +number + "=" +(Math.pow(num,number)));
 
 
     }
