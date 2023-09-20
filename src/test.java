@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class test {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Enter your first name:");
+        System.out.print("Enter your first name bb:");
         String firstname = input.nextLine();
         System.out.print("Enter your surname:");
         String lastname = input.nextLine();
