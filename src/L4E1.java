@@ -17,7 +17,7 @@ public class L4E1 {
         System.out.println("Order total:£" + amount);
         System.out.println("Deposit paid:£" + deposit);
         System.out.println("Remainder:£" + (amount-deposit));
-
+//free toaster if deposit is more than 100
         if (deposit > 100) {
             System.out.println("You get a free toaster!");
         }
