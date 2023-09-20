@@ -29,6 +29,6 @@ public class Supermarket {
         System.out.format(item1 + "........£%.2f%n", price1);
         System.out.format(item2 + "........£%.2f%n", price2);
         System.out.format(item3 + "........£%.2f%n", price3);
-        System.out.format("Total = ..£%.2f%n", (price1 + price2 + price3));
+        System.out.format("Total = ..£ %.2f %n", (price1 + price2 + price3));
     }
 }
