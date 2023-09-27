@@ -35,6 +35,11 @@ public class L5E3 {
                }
                //print final score
         System.out.println("Your score is = " + score);
+        if (score >= 7) {
+            System.out.println("Great job!");
+        } else {
+            System.out.println("Keep practicing!");
+        }
           }
       }
 
