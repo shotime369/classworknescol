@@ -15,10 +15,7 @@ public class L5E1 {
 }
 
 
-                //for (int times = number ; times <= (number * 1); times += number) {
-                    //System.out.println(number + "x1 = " + times);
-                //for (int times2 = number ; times2 == (number * 2); times2 += number) {
-                        //System.out.println(number + "x2 = " + times2);
+
 
 
 
