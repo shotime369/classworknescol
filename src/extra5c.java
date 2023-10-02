@@ -22,7 +22,7 @@ public class extra5c {
         } else if (num1 == 5) {
             System.out.print(".");
         } else {
-            System.out.println(" ");
+            System.out.print(" ");
         }
 
         if (num2 == 1) {
@@ -36,7 +36,7 @@ public class extra5c {
             } else if (num2 == 5) {
                 System.out.print(".");
         } else {
-            System.out.println(" ");
+            System.out.print(" ");
         }
 
 
@@ -51,7 +51,7 @@ public class extra5c {
         } else if (num3 == 5) {
             System.out.print(".");
         } else {
-            System.out.println(" ");
+            System.out.print(" ");
         }
         }
     }
