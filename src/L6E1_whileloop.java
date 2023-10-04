@@ -5,8 +5,6 @@ public class L6E1_whileloop {
         while (count <= 24) {
             System.out.println(count);
             count += 2;
-
-            //num % 2 != 0
         }
     }
 }
