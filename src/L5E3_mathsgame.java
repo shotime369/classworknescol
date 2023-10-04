@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class L5E3 {
+public class L5E3_mathsgame {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {

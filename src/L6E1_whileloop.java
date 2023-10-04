@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class L6E1 {
+public class L6E1_whileloop {
     public static void main(String[] args) {
 
         int count = 10;
