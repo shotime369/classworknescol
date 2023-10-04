@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class extra5c {
+public class extra5c_patternprint {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number (1-5) = ");

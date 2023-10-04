@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class L4E2{
+public class L4E2_countryquiz {
 
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);

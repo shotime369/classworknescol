@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class extra5b {
+public class extra5b_guessgame {
 
     public static void main(String[] args) {
 

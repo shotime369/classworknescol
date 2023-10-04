@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class extra5 {
+public class extra5_factorial {
 
 
     public static void main(String[] args) {

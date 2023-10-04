@@ -1,4 +1,4 @@
-public class L5E2 {
+public class L5E2_blastoff {
     public static void main(String[] args) {
 
         System.out.println("Counter");

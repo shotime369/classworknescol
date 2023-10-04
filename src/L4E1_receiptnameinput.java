@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class L4E1 {
+public class L4E1_receiptnameinput {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your first name:");

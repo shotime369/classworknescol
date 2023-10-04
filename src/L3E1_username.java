@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class L3E1 {
+public class L3E1_username {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter your first name:");

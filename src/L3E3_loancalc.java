@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class L3E3 {
+public class L3E3_loancalc {
 
     public static void main(String[] args) {
 

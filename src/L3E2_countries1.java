@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class L3E2 {
+public class L3E2_countries1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Q1- what is the capital of Spain?");
