@@ -13,6 +13,7 @@ public class L6E2_menudowhile {
                     Quit (4)\s
                     =\s""");
             menu = input.nextInt();
+            System.out.println ("option selected " + menu);
         }
         while (menu != 4);
 
