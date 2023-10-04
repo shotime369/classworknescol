@@ -1,4 +1,4 @@
-public class Anagram {
+public class L1E2_Anagram {
     public static void main(String[] args) {
         System.out.println("MINCE OR TYPO = mycoprotein");
         System.out.println("BOUNTY RASCAL = constabulary");

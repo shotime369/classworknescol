@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class extraCswitch {
+public class extra4C_switch {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
        String day = null;

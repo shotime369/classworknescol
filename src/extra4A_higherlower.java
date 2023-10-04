@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class extraA {
+public class extra4A_higherlower {
         public static void main(String[] args) {
             Scanner input = new Scanner(System.in);
             System.out.print("Guess a number: ");

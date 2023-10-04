@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class extraC {
+public class extra4C_daysoftheweek {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a number between 1 and 7: ");

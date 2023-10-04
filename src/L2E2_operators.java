@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class numbers {
+public class L2E2_operators {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

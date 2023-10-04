@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Supermarket {
+public class L2E3_Supermarket {
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);

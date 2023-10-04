@@ -1,4 +1,4 @@
-public class L1E1haiku {
+public class L1E1_haiku {
 
     public static void main(String[] args) {
         System.out.println("Flame-grilled whispers,");
