@@ -1,4 +1,4 @@
-import java.util.Random;
+//import java.util.Random;
 import java.util.Scanner;
 
 public class L7E3_might_maths_quiz {
@@ -7,11 +7,11 @@ public class L7E3_might_maths_quiz {
     public static int askQuestion(int num1, int num2) {
         Scanner sc = new Scanner(System.in);
         //add new random class
-        Random rand = new Random();
+       // Random rand = new Random();
         //generate 2 random numbers
-        int r1 = rand.nextInt(20);
-        int r2 = rand.nextInt(20);
-        System.out.format("What is %d + %d? = ", r1, r2);
+      //  int r1 = rand.nextInt(20);
+        //int r2 = rand.nextInt(20);
+        System.out.format("What is %d + %d? = ", num1, num2);
         int userAnswer = sc.nextInt();
         return userAnswer;
     }
@@ -25,7 +25,7 @@ public class L7E3_might_maths_quiz {
     public static int wrongAnswer(int answer, int lives) {
         System.out.println("Wrong :( The answer is " + answer);
         lives--;
-        System.out.format("you have %d left", lives);
+        System.out.format("you have %d lives left \n", lives);
         return lives;
     }
 
