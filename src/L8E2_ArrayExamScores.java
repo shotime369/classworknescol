@@ -7,11 +7,11 @@ public class L8E2_ArrayExamScores {
         }
 
         int av = 0;
-        for (int i = 0; i < scores.length; i++) {
-            av = av + scores[i];
+        for (int score : scores) {
+            av = av + score;
         }
         int aver = av / 100 * 10;
-        System.out.println(aver);
+        System.out.println("The average of the results is: " + aver);
 
 
 
