@@ -1,4 +1,4 @@
-import java.util.Arrays;
+
 
 public class L8E1_array {
     public static void main(String[] args) {
@@ -11,6 +11,6 @@ public class L8E1_array {
 
         System.out.println(classlist[0]);
         System.out.println(classlist[classlist.length-1]);
-        System.out.println( classlist.length );
+        System.out.println( "The number of items in the array is: " + classlist.length );
     }
 }
