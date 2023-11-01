@@ -10,7 +10,7 @@ public class L8E1_array {
         classlist[4] = "William";
 
         System.out.println(classlist[0]);
-        System.out.println(classlist[4]);
+        System.out.println(classlist[classlist.length-1]);
         System.out.println( classlist.length );
     }
 }
