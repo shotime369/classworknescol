@@ -14,6 +14,7 @@ public class L11E1_files {
             int i;
             for (i = 1; i <= 12; i++) {
                 out.format("%d x %d = %d\n", i,userinput, userinput * i);
+                out.close();
             }
             out.close();
             } catch(IOException e){
