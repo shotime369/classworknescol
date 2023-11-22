@@ -11,6 +11,7 @@ public class L11E2_fileoutput {
             do {
                 line = in.readLine();
                 System.out.println(line);
+
             }
             while (line != null);
         }
