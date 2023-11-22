@@ -5,18 +5,20 @@ import java.util.Scanner;
 
 public class L11E3_scanner {
     public static void main(String[] args) {
+        double sum = 0;
         try ( Scanner in = new Scanner( new FileReader("numbers2") ) ) {
-            double sum = 0;
             do {
                 double num = in.nextDouble();
                 sum = (sum + num);
-                System.out.println(sum);
+               // System.out.println(sum);
            }
-            while ( in.hasNextLine() );
+            while ( in.hasNextInt() );
         }
         catch (IOException e){
             System.out.println("Error occurred reading file: " + e.toString());
         }
+        System.out.println("sum = " + sum);
+
     }
     }
 
