@@ -3,7 +3,15 @@
 public class L12E3 {
 
     public static void displayCar(car thiscar){
-        System.out.format("%s %s %d %s %d %s %d %s",thiscar.make,thiscar.model, thiscar.year, thiscar.vin, thiscar.price, thiscar.colour, thiscar.mileage, thiscar.condition);
+        System.out.format("--------------------\n" +
+                "%s %s (%d) \n" +
+                "Vin: " + "%s \n" +
+                "Price: " + "%d \n" +
+                "Colour: " + "%s \n" +
+                "Mileage: "+ "%d \n" +
+                "Condition: "+ "%s \n" +
+                "--------------------"
+                ,thiscar.make,thiscar.model, thiscar.year, thiscar.vin, thiscar.price, thiscar.colour, thiscar.mileage, thiscar.condition);
     }
 
     public static void main(String[] args) {
