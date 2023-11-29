@@ -1,4 +1,4 @@
-package Lesson12;
+
 import java.util.*;
 
 import java.io.BufferedReader;
@@ -31,6 +31,14 @@ public class L12E2 {
     public static String attendance(boolean studentIsHere){
         // return X if student is present, O if student is not present
         // ...
+        String attendance;
+        if (studentIsHere){
+           attendance = ("X");
+        }
+        else {
+            attendance = ("O");
+        }
+        return attendance;
     }
 
     public static void displayStudent(Student thisStudent){
@@ -45,6 +53,7 @@ public class L12E2 {
             Student thisStudent = thisClass.get(i);
             // show details for this student
             // ...
+            displayStudent(thisStudent);
         }
     }
 }

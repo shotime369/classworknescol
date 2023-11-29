@@ -11,6 +11,12 @@ public class L12E1 {
         // update values of student object and display
 
         Student A = new Student();
+        A.firstName= "Shona";
+        A.surname = "Penny";
+        A.present = true;
+        A.id = 27260255;
+
+        displayStudent(A);
 
     }
 }
